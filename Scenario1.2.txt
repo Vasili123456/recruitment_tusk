@@ -1,0 +1,6 @@
+  Scenario: Search for "Prowly Media Monitoring" with Video Content Category
+    Given the user is on the Bing homepage
+    When the user searches for "Prowly Media Monitoring"
+    Then the search results page is displayed
+    And the user filters the results by content category "Video"
+    Then the results should only include video content related to "Prowly Media Monitoring"
