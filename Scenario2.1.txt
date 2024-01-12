@@ -1,0 +1,6 @@
+  Scenario: Use Copilot to Collect Information about Prowly Media Monitoring Module
+    Given the user is on the Bing homepage
+    When the user initiates a search using Copilot for "Prowly Media Monitoring module details"
+    Then Copilot generates relevant search suggestions
+    And the user selects a suggestion related to the Prowly Media Monitoring module
+    Then the search results page should display detailed information about the Prowly Media Monitoring module
