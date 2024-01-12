@@ -1,0 +1,7 @@
+
+  Scenario: Search for "Prowly Media Monitoring" with Content Category Filtering
+    Given the user is on the Bing homepage
+    When the user searches for "Prowly Media Monitoring"
+    Then the search results page is displayed
+    And the user filters the results by content category "News"
+    Then the results should only include news articles related to "Prowly Media Monitoring"
