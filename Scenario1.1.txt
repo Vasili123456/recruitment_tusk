@@ -1,5 +1,4 @@
-
-  Scenario: Search for "Prowly Media Monitoring" with Content Category Filtering
+ Scenario: Search for "Prowly Media Monitoring" with Content Category Filtering
     Given the user is on the Bing homepage
     When the user searches for "Prowly Media Monitoring"
     Then the search results page is displayed
