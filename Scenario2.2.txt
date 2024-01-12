@@ -1,0 +1,6 @@
+ Scenario: Utilize Copilot to Explore Prowly Media Monitoring Features
+    Given the user is on the Bing homepage
+    When the user uses Copilot to explore features of "Prowly Media Monitoring"
+    Then Copilot provides suggestions for key features
+    And the user selects a suggestion to learn more about a specific feature
+    Then the search results should contain detailed information about the selected feature in Prowly Media Monitoring
